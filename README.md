@@ -1,8 +1,7 @@
 ## NoogaNaega Red NFT smart contract deployed on Polygon Mumbai test network.
-
-## Key Features of the Contract
 Creation of Digital Collectibles (NFTs). The contract allows for the creation of up to 9,001 unique digital collectibles (NFTs). Each of these has a unique identifier and is stored on the blockchain.
 
+## Key Features of the Contract are outlined below.
 # Minting NFTs
 "Minting" is like digital crafting; it's the process of creating new NFTs.
 The contract limits how many NFTs you can mint at once to 10.
