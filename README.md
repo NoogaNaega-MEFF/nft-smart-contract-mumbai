@@ -17,6 +17,6 @@ The contract uses something called ReentrancyGuard to protect against certain ty
 Payments are split and distributed automatically to predetermined wallet addresses, ensuring additional security.
 The owner can change how much it costs to create (mint) each NFT.
 
-# Digital Asset Information (Metadata)
+## Digital Asset Information (Metadata)
 The contract allows the owner to set and update the base URL and file extension for the NFTs' metadata.
 Metadata is like a digital certificate of authenticity for each NFT, providing details about it.
