@@ -2,25 +2,25 @@
 
 This is a Solidity smart contract for a non-fungible token (NFT) collection named "NoogaNaega". 
 
-"Minting" is like digital crafting; it's the process of creating new NFTs.
+1. "Minting" is like digital crafting; it's the process of creating new NFTs.
 
-The contract limits how many NFTs you can mint at once up to 10 per transaction.
+2. The contract limits how many NFTs you can mint at once up to 10 per transaction.
 
-There's a feature to mint NFTs for free, but it can be turned on or off by the contract owner.
+3. There's a feature to mint NFTs for free, but it can be turned on or off by the contract owner.
 
-Pausing the Minting: The owner of the contract can pause the minting process. When paused, no one can create new NFTs.
+4. Pausing the Minting: The owner of the contract can pause the minting process. When paused, no one can create new NFTs.
 
-Only the contract's owner can change certain settings, like pausing minting or changing the minting price. This helps prevent unauthorized changes to the contract.
+5. Only the contract's owner can change certain settings, like pausing minting or changing the minting price. This helps prevent unauthorized changes to the contract.
 
-The contract uses ReentrancyGuard to protect against certain types of cyber attacks.
+6. The contract uses ReentrancyGuard to protect against certain types of cyber attacks.
 
-Payments are split and distributed automatically to predetermined wallet addresses, ensuring additional security.
+7. Payments are split and distributed automatically to predetermined wallet addresses, ensuring additional security.
 
-The owner can change how much it costs to create (mint) each NFT.
+8. The owner can change how much it costs to create (mint) each NFT.
 
-The contract allows the owner to set and update the base URL and file extension for the NFTs' metadata.
+9. The contract allows the owner to set and update the base URL and file extension for the NFTs' metadata.
 
-Metadata is like a digital certificate of authenticity for each NFT, providing details about it.
+10. Metadata is like a digital certificate of authenticity for each NFT, providing details about it.
 
 ## Security analysis of our smart contract
 
